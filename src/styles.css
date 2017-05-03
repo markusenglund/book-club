@@ -1,0 +1,37 @@
+h1 {
+  font-family: monospace;
+}
+
+.header a {
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.header span {
+  padding: 10px;
+}
+
+.active {
+  background-color: #ddd;
+}
+
+.thumbnail {
+  display: inline-block;
+}
+
+.fa-arrows-h {
+  cursor: pointer;
+  margin-left: -15px;
+  color: #00ff55;
+}
+
+.fa-times {
+  cursor: pointer;
+  margin-left: -15px;
+  color: red;
+}
+
+.profile-form {
+  display: inline-block;
+}
