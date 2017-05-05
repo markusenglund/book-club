@@ -23,7 +23,7 @@ class App extends Component {
       <Router>
         <div>
           <Header user={this.state.user} />
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Home} hello="hello" />
           <Route path="/about" component={About} />
           <PrivateRoute path="/profile" component={Profile} user={this.state.user} />
         </div>

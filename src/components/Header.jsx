@@ -6,12 +6,13 @@ const Header = (props) => {
   return (
     <div className="header">
       <NavLink exact to="/">Book club</NavLink>
-      <NavLink to="/about">About</NavLink>
       {props.user ?
         <span>
           <NavLink to="/profile">Profile</NavLink>
         </span> :
-        <a href="/auth/twitter"><i className="fa fa-twitter" aria-hidden="true" /> Sign in</a>}
+        <a href="/auth/twitter"><i className="fa fa-twitter" aria-hidden="true" /> Sign in</a>
+      }
+      <NavLink to="/about">About</NavLink>
     </div>
   )
 }

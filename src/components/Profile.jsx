@@ -22,7 +22,7 @@ class Profile extends Component {
   render() {
     return (
       <div>
-        <h2>Profile</h2>
+        <h1>Profile</h1>
         {this.state.info ?
           <div>
             <ProfileItem

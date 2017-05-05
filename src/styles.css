@@ -1,4 +1,4 @@
-h1 {
+h1, h2, h3 {
   font-family: monospace;
 }
 
@@ -26,12 +26,24 @@ h1 {
   color: #00ff55;
 }
 
+.fa-check {
+  color: green;
+  cursor: pointer;
+}
+
 .fa-times {
   cursor: pointer;
-  margin-left: -15px;
   color: red;
+}
+
+.thumbnail .fa-times {
+  margin-left: -15px;
 }
 
 .profile-form {
   display: inline-block;
+}
+
+.requests {
+  margin: 10px;
 }

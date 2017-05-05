@@ -33,7 +33,7 @@ class MyBooks extends Component {
   render() {
     return (
       <div>
-        <h1>My books</h1>
+        <h2>My books</h2>
         <InputForm updateBooks={this.updateBooks} />
         {this.state.books.map(book => (
           <div className="thumbnail my-book" key={book._id}>
